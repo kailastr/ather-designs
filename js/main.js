@@ -282,8 +282,8 @@
 
         // Open WhatsApp with pre-filled message
         function openWhatsApp(email) {
-            const phoneNumber = '918129848691';
-            const message = `Hey AD, I would like to know more about your services.. Here is my emamil id ${email} .`;
+            const phoneNumber = '918594007227';
+            const message = `Hi Ather Designs, I would like to know more about your services.. Here is my emamil id ${email} .`;
             const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
             window.open(whatsappUrl, '_blank');
         }
